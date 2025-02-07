@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+.navbar-left {
+    padding-left: 20px;
+}
+
+
+.image-logo{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+}
+
+.navbar-right {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.a-element{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.home-left {
+    text-align: right;
+    width: 50vw;
+    padding-left: 200px;
+}
+
+.home-right {
+    width: 50vw;
+    padding-left: 100px;
+}
+
+.home-h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.home-p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.education {
+    padding: 50px;
+    text-align: center;
+}
+.edu-h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(10, 255, 10);
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.education-sub-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.education-card {
+    border: 2px solid rgb(38, 61, 1);
+    margin: 10px;
+    padding: 5px;
+    width: 400px;
+}
+
+.ec-h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.ec-p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.con-h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(10, 255, 10);
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.contact-info {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.social-icon-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    padding: 2px;
+} 
